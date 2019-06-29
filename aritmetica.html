@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="_css/estilo.css"/>
+	<meta charset="UTF-8"/>
+	<title>Curso de PHP - CursoemVideo.com</title>
+</head>
+<body>
+<div>
+	<form method="get" action="aritmetica.php">           
+		<label for="inum"> Número: </label><input type="number" name="num" id="inum"/><br>
+		<label for="ipow"> Potência: </label><input type="number" name="pow" id="ipow"/><br>
+			<fieldset><legend>Operação</legend>
+			<input type="radio" name="oper" id="abs" value="abs"/><label for="abs">Valor absoluto</label><br>
+			<input type="radio" name="oper" id="pow" value="pow"/><label for="pow">Potência</label><br>
+			<input type="radio" name="oper" id="sqrt" value="sqrt"/><label for="sqrt">Raiz</label><br>
+			<input type="radio" name="oper" id="round" value="round"/><label for="round">Arredondar</label><br>
+			<input type="radio" name="oper" id="intval" value="intval"/><label for="intval">Valor inteiro</label><br>
+			<input type="radio" name="oper" id="moeda" value="moeda"/><label for="moeda">Formato de moeda</label>
+			</fieldset>
+		<input type="submit" class="botao" value="Calcular">
+	</form>
+	<p><a href="javascript:history.go(-1)" class="botao">Voltar</a><p>
+</div>
+</body>
+</html>
